@@ -1,9 +1,13 @@
+<div class="question">
+  <p><%= @question %> </p>
+  <p> <em>- You</em></p>
+</div>
 
-<p>
-You : <%= @question %>
-<br>
-Your coach: <%= @answer %>
+<div class="question" id="answer">
+  <p> <%= @answer %> </p>
+  <p> <em>- Your coach</em></p>
+</div>
 
-</p>
-<br>
-<%= link_to 'ask a new question', ask_path %>
+<div class="link">
+  <%= link_to 'Ask a new question', ask_path %>
+</div>

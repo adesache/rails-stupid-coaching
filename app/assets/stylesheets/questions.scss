@@ -10,6 +10,11 @@ h1 {
   text-align: center;
 }
 
+p {
+    font-family: 'Istok Web';
+    font-size: 16px;
+}
+
 .button {
   background-color: #469ae0;
   color: white;
@@ -27,4 +32,21 @@ h1 {
   box-shadow: 5px 5px 50px 1px rgba(0, 0, 0, 0.1);
   width: 300px;
   padding: 4px 23px;
+  margin: auto;
+}
+
+
+.question {
+
+  border-left: 3px rgba(230, 230, 230, 0.5) solid;
+  padding: 20px;
+  margin: 40px 20px;
+}
+
+#answer {
+  background-color: #fff8dc;
+}
+
+.link {
+  text-decoration: none;
 }
